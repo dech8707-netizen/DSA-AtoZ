@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void pattern18(int n) {
+void pattern19(int n) {
     int iniS=0;
     for(int i=1; i<=n;i++) {
         for(int j=1;j<=n-i+1;j++) {
@@ -30,12 +30,12 @@ void pattern18(int n) {
         }
         iniS -= 2;
         cout<<endl;
-    }
+    }                                                                                                                                                                                                                                                                      
 
 }
 int main() {
     int n;
     cin>>n;
-    pattern18(n);
+    pattern19(n);
     return 0;
 }
